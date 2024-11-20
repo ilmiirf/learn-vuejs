@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --background-color: #f6fcdf;
+  --dark-green: #1a1a19;
+  --primary-green: #31511e;
+  --light-green: #859f3d;
+  --lighter-green: #d3edb1;
+  --dark-red: #64073d;
+  --primary-red: #d1294b;
+  --light-red: #e35a69;
+  --lighter-red: #fab0a9;
+  --dark-yellow: #552c00;
+  --primary-yellow: #b27600;
+  --light-yellow: #d0a134;
+  --lighter-yellow: #f7e094;
+  --dark-blue: #002153;
+  --primary-blue: #0171ad;
+  --light-blue: #34a1cd;
+  --lighter-blue: #94e7f6;
+  --text-dark: #1a1a19;
+  --text-light: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+}
