@@ -46,6 +46,16 @@ const routes = [
     name: 'DadJokes',
     component: () => import('../views/Project8/DadJokes.vue'),
   },
+  {
+    path: '/github-user-search',
+    name: 'GithubUserSearch',
+    component: () => import('../views/Project9/GithubUserSearch.vue'),
+  },
+  {
+    path: '/wiki-clone',
+    name: 'WikiClone',
+    component: () => import('../views/Project10/WikiClone.vue'),
+  },
 ];
 
 const router = createRouter({

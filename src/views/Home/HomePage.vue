@@ -59,6 +59,20 @@
         <router-link to="/dad-jokes" class="link-src">Dad Jokes<span>&#8594;</span></router-link>
       </td>
     </tr>
+    <tr>
+      <td>Project 9</td>
+      <td class="project-link">
+        <router-link to="/github-user-search" class="link-src"
+          >Github User Search<span>&#8594;</span></router-link
+        >
+      </td>
+    </tr>
+    <tr>
+      <td>Project 10</td>
+      <td class="project-link">
+        <router-link to="/wiki-clone" class="link-src">Wiki Clone<span>&#8594;</span></router-link>
+      </td>
+    </tr>
   </table>
 </template>
 
